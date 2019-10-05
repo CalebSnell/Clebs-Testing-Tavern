@@ -1,12 +1,13 @@
 public class detector {
     public static void main(String[] args) {
-        String plantStauts;
+        String plantStatus;
+        String leaves = "idk";
 
-        if (leaves.getColor().equals("GREEN") {
+        if(leaves.getColor().equals("GREEN")) {
             plantStatus = "healthy";
             System.out.println(plantStatus);
         }
-        else if(leaves.getPattern().equals("SPLOTCHY") {
+        else if(leaves.getPattern().equals("SPLOTCHY")) {
             plantStatus = "ded as fuck yo";
             System.out.println(plantStatus);
         }
